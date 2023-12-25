@@ -1,0 +1,85 @@
+\hypertarget{classCipher}{}\doxysection{Класс Cipher}
+\label{classCipher}\index{Cipher@{Cipher}}
+
+
+Класс расшифрования и шифрования шифра маршрутной табличной перестановки.  
+
+
+
+
+{\ttfamily \#include $<$Cipher.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCipher_ae728d0917db639dd49638a268298391f}\label{classCipher_ae728d0917db639dd49638a268298391f}} 
+\mbox{\hyperlink{classCipher_ae728d0917db639dd49638a268298391f}{Cipher}} ()=delete
+\begin{DoxyCompactList}\small\item\em Конструктор без параметров. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCipher_a18781eba7ae36d2314577fa362e12ace}{Cipher}} (int w)
+\begin{DoxyCompactList}\small\item\em Конструктор для ключа \end{DoxyCompactList}\item 
+wstring \mbox{\hyperlink{classCipher_a2ad7df814cbccea470ead91a6d810d43}{zakodirovat}} (\mbox{\hyperlink{classCipher}{Cipher}} w, wstring \&s)
+\begin{DoxyCompactList}\small\item\em шифрование табличной маршрутной перестановки \end{DoxyCompactList}\item 
+wstring \mbox{\hyperlink{classCipher_ac00cac5942255e078cb13451da3bef10}{raskodirovar}} (\mbox{\hyperlink{classCipher}{Cipher}} w, wstring \&s)
+\begin{DoxyCompactList}\small\item\em расшифрование табличной маршрутной перестановки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс расшифрования и шифрования шифра маршрутной табличной перестановки. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classCipher_a18781eba7ae36d2314577fa362e12ace}\label{classCipher_a18781eba7ae36d2314577fa362e12ace}} 
+\index{Cipher@{Cipher}!Cipher@{Cipher}}
+\index{Cipher@{Cipher}!Cipher@{Cipher}}
+\doxysubsubsection{\texorpdfstring{Cipher()}{Cipher()}}
+{\footnotesize\ttfamily Cipher\+::\+Cipher (\begin{DoxyParamCaption}\item[{int}]{w }\end{DoxyParamCaption})}
+
+
+
+Конструктор для ключа 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em значение} & ключа \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classCipher_ac00cac5942255e078cb13451da3bef10}\label{classCipher_ac00cac5942255e078cb13451da3bef10}} 
+\index{Cipher@{Cipher}!raskodirovar@{raskodirovar}}
+\index{raskodirovar@{raskodirovar}!Cipher@{Cipher}}
+\doxysubsubsection{\texorpdfstring{raskodirovar()}{raskodirovar()}}
+{\footnotesize\ttfamily wstring Cipher\+::raskodirovar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCipher}{Cipher}}}]{w,  }\item[{wstring \&}]{s }\end{DoxyParamCaption})}
+
+
+
+расшифрование табличной маршрутной перестановки 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em образец} & класса \char`\"{}\+Cipher\char`\"{}, в котором устанавливается ключ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCipher_a2ad7df814cbccea470ead91a6d810d43}\label{classCipher_a2ad7df814cbccea470ead91a6d810d43}} 
+\index{Cipher@{Cipher}!zakodirovat@{zakodirovat}}
+\index{zakodirovat@{zakodirovat}!Cipher@{Cipher}}
+\doxysubsubsection{\texorpdfstring{zakodirovat()}{zakodirovat()}}
+{\footnotesize\ttfamily wstring Cipher\+::zakodirovat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCipher}{Cipher}}}]{w,  }\item[{wstring \&}]{s }\end{DoxyParamCaption})}
+
+
+
+шифрование табличной маршрутной перестановки 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em образец} & класса \char`\"{}\+Cipher\char`\"{}, в котором устанавливается ключ \\
+\hline
+{\em wstring} & это строка зашифрования \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Cipher_8h}{Cipher.\+h}}\item 
+Cipher.\+cpp\end{DoxyCompactItemize}
